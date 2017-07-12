@@ -1,0 +1,8 @@
+---
+applications:
+- name: helloworld_py
+  memory: 75MB
+  disk_quota: 150MB
+  random-route: true
+  buildpack: python_buildpack
+  command: python hello.py
