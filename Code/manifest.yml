@@ -4,5 +4,5 @@ applications:
   memory: 75MB
   disk_quota: 150MB
   random-route: true
-  buildpack: python_buildpack
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
   command: python hello.py
